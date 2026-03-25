@@ -26,7 +26,7 @@ public class TarefaService {
         tarefaRepository.deleteById(id);
     }
 
-    public TarefaModel criarLivro(TarefaModel tarefaModel) {
+    public TarefaModel criarTarefa(TarefaModel tarefaModel) {
         return tarefaRepository.save(tarefaModel);
     }
 }
